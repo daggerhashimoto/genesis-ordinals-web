@@ -20,42 +20,19 @@ export default function Main() {
             Carved onto the Bitcoin blockchain forever.
           </h1>
           <p className="mb-4 xl:w-3/4 text-gray-600 text-md">
-            Genesis Ordinals are true digital artifacts called Inscriptions. Their data is embedded inside of a special kind of transaction, allowing it to become an everlasting part the Bitcoin blockchain.
+          Genesis Ordinals is a collection of forty-three Ordinals logo variations. Inscribed on the Bitcoin blockchain by Neufi Ordinals Lab.
           </p>
-          <div className="flex justify-center">
-            <a
-              className="inline-flex items-center px-5 py-3 mt-2 font-medium text-white transition duration-500 ease-in-out transform bg-transparent border rounded-lg bg-gray-900"
-              href="https://github.com/r1/nine4-2/"
-            >
-              <span className="justify-center">Find out more</span>
-            </a>
-          </div>
         </div>
         <div
-        className={`w-80 xl:mr-44 sm:mr-0 sm:mb-28 mb-0 lg:mb-0 mr-48 md:pl-10 ${
-          currentDiv === 1 ? "block" : "hidden"
-        } transition-opacity duration-3000 ease-in-out`}
+        className="w-80 xl:mr-44 sm:mr-0 sm:mb-28 mb-0 lg:mb-0 mr-48 md:pl-10 transition-opacity duration-3000 ease-in-out"
       >
           <img
             className="w-80 md:ml-1 ml-24"
             alt="inscription-0"
             src="/images/0.svg"
-          ></img>      </div>
-      <div
-        className={`w-80 xl:mr-44 sm:mr-0 sm:mb-28 mb-0 lg:mb-0 mr-48 md:pl-10 ${
-          currentDiv === 2 ? "block" : "hidden"
-        } transition-opacity duration-3000 ease-in-out`}
-      >
-        <p>OP_FALSE</p>
-        <p>OP_IF</p>
-
-        <p>&nbsp; &nbsp;OP_PUSH "ord"</p>
-        <p>&nbsp; &nbsp;OP_1</p>
-        <p>&nbsp; &nbsp;OP_PUSH "text/plain;charset=utf-8"</p>
-        <p>&nbsp; &nbsp;OP_0</p>
-        <p>&nbsp; &nbsp;OP_PUSH "Hello, world!"</p>
-        <p>OP_ENDIF</p>
-      </div>
+          ></img>      
+          </div>
+      
       </div>
 
     </section>
